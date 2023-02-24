@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <title>Freelancer Web Designer | Home</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header__inner">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="" class="main-nav__logo">
+                </a>
+                <ul class="main-nav__items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- section a -->
+    <section id="about__a" class="text-center py-2">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="border-bottom"></div>
+            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum doloremque similique autem eum excepturi voluptas rem? Laborum, fugiat mollitia, ducimus, rerum minima ullam esse nostrum dignissimos nobis accusamus ea.</p>
+            <div class="info">
+                <img src="img/about.jpeg" alt="" class="info__image">
+                <div class="info__bio bg-light">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio pariatur magnam repellendus nesciunt rem quidem, asperiores exercitationem sint aspernatur quas!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section b -->
+    <section id="about__b" class="bg-dark py-2">
+        <div class="container">
+            <h2 class="section-title">What I Know...</h2>
+            <div class="border-bottom"></div>
+            <div class="progress-bars">
+                <h4>Web Development</h4>
+                <div class="progress">
+                    <div style="width: 100%;"></div>
+                </div>
+
+                <h4>Mobile App Development</h4>
+                <div class="progress">
+                    <div style="width: 70%;"></div>
+                </div>
+
+                <h4>Data Science</h4>
+                <div class="progress">
+                    <div style="width: 64%;"></div>
+                </div>
+
+                <h4>Machine Learning</h4>
+                <div class="progress">
+                    <div style="width: 50%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Section c -->
+    <section id="about__c" class="bg-light py-2">
+        <div class="container">
+            <div class="about__logo">
+                <img src="img/joomla.png" alt="">
+                <img src="img/woocommerce.png" alt="">
+                <img src="img/wordpress.png" alt="">
+                <img src="img/wix.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section d -->
+    <section id="about__d" class="py-2">
+        <div class="container">
+            <h2 class="section-title">References</h2>
+            <div class="border-bottom"></div>
+            <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi rerum nostrum ad harum, ut deleniti!</p>
+            <div class="references owl-carousel owl-theme">
+                <div class="item">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quidem cum eveniet rerum dignissimos impedit libero inventore in consequatur dicta!</p>
+                    <ul>
+                        <li><img src="img/user-1.jpeg" alt=""></li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ul>
+                </div>
+
+                <div class="item">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quidem cum eveniet rerum dignissimos impedit libero inventore in consequatur dicta!</p>
+                    <ul>
+                        <li><img src="img/user-2.jpeg" alt=""></li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ul>
+                </div>
+
+                <div class="item">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quidem cum eveniet rerum dignissimos impedit libero inventore in consequatur dicta!</p>
+                    <ul>
+                        <li><img src="img/user-3.jpeg" alt=""></li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ul>
+                </div>
+
+                <div class="item">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quidem cum eveniet rerum dignissimos impedit libero inventore in consequatur dicta!</p>
+                    <ul>
+                        <li><img src="img/user-4.jpeg" alt=""></li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>Copyright &copy; 2023 Eren Şimşek. All Rights Reserved.</p>
+
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function(){
+          $(".owl-carousel").owlCarousel({
+              center:true,
+              autoplay:true,
+              autoplayHoverPause:true,
+              autoplayTimeout:3000,
+              loop:true,
+              responsiveClass:true,
+              responsive:{
+                  // breakpoint from 0 up
+                  0:{
+                      items:1,
+                      nav:true
+                  },
+                  // breakpoint from 600 up
+                  600:{
+                      items:2,
+                      nav:true
+                  },
+                  // breakpoint from 1000 up
+                  1000:{
+                      items:3,
+                      nav:true
+                  }
+              }
+          });
+        });
+    </script>
+</body>
+</html>
